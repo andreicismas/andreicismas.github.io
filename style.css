@@ -14,7 +14,19 @@ body{
     border-radius: 10px;
 }
 
+.spp_logo{
+    width: 10%;
+}
 
-.myh1{
+
+.title_spp{
     font-family: 'Dela Gothic One', cursive;
+    text-decoration: underline yellow;
+}
+
+.ro_regiment{
+    font-family: 'Dela Gothic One', cursive;
+    padding-left: 20px;
+    font-weight: 200;
+    color: red;
 }
