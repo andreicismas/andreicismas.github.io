@@ -1,5 +1,5 @@
 body{
-    background-image: url(image.spp/background_spp.jpeg);
+    background-image: url(img/background_spp.jpeg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -11,9 +11,10 @@ body{
     color:white;
     width: 90%;
     margin: auto;
-    border: 2px solid red;
     border-radius: 10px;
 }
 
 
-
+.myh1{
+    font-family: 'Dela Gothic One', cursive;
+}
