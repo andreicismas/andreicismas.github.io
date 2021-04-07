@@ -15,7 +15,7 @@ body{
 }
 
 .spp_logo{
-    width: 10%;
+    width: 100px;
 }
 
 
@@ -29,4 +29,39 @@ body{
     padding-left: 20px;
     font-weight: 200;
     color: red;
+    vertical-align: -webkit-baseline-middle;
+}
+
+@media screen and (max-width:480px){
+    .title_spp{
+      font-size: 14px;
+    }
+
+    .spp_logo{
+        width: 30%;
+    }
+}
+
+/* main parth */
+
+.container_row_1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.img_container{
+    border: solid 1px rgba(65, 74, 122, 0.493);
+    margin: 0px 5px;
+     padding:0px 8px;
+     max-width: 200px;
+     flex-basis: 100px;
+     flex-grow: 1;
+     flex-shrink: 0;
+}
+
+.img_style{
+    width: 100%;
 }
