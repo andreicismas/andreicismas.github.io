@@ -1,9 +1,9 @@
 body{
     background-image: url(img/background_spp.jpeg);
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: repeat;
    
 }
 
@@ -33,6 +33,8 @@ body{
 }
 
 @media screen and (max-width:480px){
+    
+   
     .title_spp{
       font-size: 14px;
     }
@@ -42,15 +44,65 @@ body{
     }
 
     
-    .container_row_1 .img_container{
+    .container_row_1 .img_container,
+    .container_row_2 .img_container,
+    .container_row_3 .img_container,
+    .container_row_4 .img_container{
      max-width: 80px;
+    }
+
+    i.icona_circle{
+        position: absolute;
+        color: white;
+        top: -6px;
+        right: -4px;
+        animation: gira_2 linear 5s infinite 3s ;
+    }
+   
+  
+
+    @keyframes gira_2 {
+
+        0%{
+         top: -6px;
+            right: -4px;
+            color: tomato;
+        }
+
+        50% {
+            top: 77px;
+            right: -4px;
+            color: violet;
+        }
+/* 
+        40% {
+            top: 77px;
+            right: 71px;
+            color: yellow;
+        }
+
+        60% {
+            top: -6px;
+            right: 71px;
+            color: coral;
+        } */
+
+        100% {
+            top: -6px;
+            right: -4px;
+            color: tomato;
+        }
+    
     }
   
 }
 
 /* main parth */
 
-.container_row_1{
+.container_row_1,
+.container_row_2,
+.container_row_3,
+.container_row_4{
     padding-top: 30px;
     display: flex;
     justify-content: center;
@@ -59,6 +111,7 @@ body{
 
 
 .img_container{
+    position: relative;
     border: solid 1px rgba(65, 122, 110, 0.493);
     border-radius: 10px;
     margin: 0px 5px;
@@ -76,4 +129,39 @@ body{
 .name_style{
     font-family: 'New Tegomin', serif;
     color: rgba(0, 255, 200, 0.507);
+}
+
+.icona_circle{
+    position: absolute;
+    color: white;
+    top: -6px;
+    right: -4px;
+    animation: gira linear 5s infinite 3s ;
+}
+
+@keyframes gira {
+    0%{
+        top: -6px;
+        right: -4px;
+    }
+    20%{
+        top: 232px;
+        right: -4px;
+    }
+
+    40%{
+        top: 232px;
+        right: 190px;
+    }
+
+    60%{
+        top: -6px;
+        right: 190px;
+    }
+
+    100%{
+        top: -6px;
+        right: -4px;
+    }
+
 }
