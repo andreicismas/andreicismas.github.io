@@ -60,7 +60,7 @@ body{
     }
    
   
-
+/* 
     @keyframes gira_2 {
 
         0%{
@@ -87,13 +87,13 @@ body{
             color: coral;
         } */
 
-        100% {
+        /* 100% {
             top: -6px;
             right: -4px;
             color: tomato;
         }
     
-    }
+    } */ 
   
 }
 
