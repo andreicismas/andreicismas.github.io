@@ -33,6 +33,9 @@ body{
 }
 
 @media screen and (max-width:480px){
+    .me_style{
+       font-size: 12px;
+    }
     .img_container {
         width: 230px;
     }
